@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="background-color:#06394E;">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand mr-auto" href="#"><img src="static/header_icon.png" class="img-fluid mr-3" height="60" width="60"><font color="#F79A5A" size="5%" style="font-family: 'Open Sans', sans-serif;"><strong>Oneros Tech</strong></font></a>
+
+			<div class="collapse navbar-collapse" id="content">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="/"><font size="2%">GAMES</font></a></li>
+					<span style="position: relative;color: white;top:7px;" class="d-none d-sm-block">|</span>
+					<li class="nav-item"><a class="nav-link" href="/about"><font size="2%">ABOUT</font></a></li>
+					<span style="position: relative;color: white;top:7px;" class="d-none d-sm-block">|</span>	
+					<li class="nav-item active"><a class="nav-link" href="/contact"><font size="2%">CONTACT</font></a></li>
+					<span style="position: relative;color: white;top:7px;" class="d-none d-sm-block">|</span>
+					<li class="nav-item"><a class="nav-link" href="/privacy"><font size="2%">PRIVACY POLICY</font></a></li>	
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="follow">
+		<!-- <div class="container"> -->
+			<div class="row row-body align-items-center" >
+			
+				<div class="offset-2 col-2 d-none d-sm-block">
+					<font size="4px" color="white"><center>Follow Us:</center></font>
+				</div>
+				<div class="col-2 offset-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-youtube-play fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1 d-none d-sm-block">
+					<a href="#"><i class="fa fa-snapchat fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+				</div>
+			</div>
+			
+		<!-- </div> -->
+	</div>
+	<div class="container" style="padding-top: 1%;">
+		<div class="row">
+			<div class="d-flex col-12 justify-content-center">
+				<h3>CONTACT</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div style="padding-top: 4%;">
+			
+			<div class="row align-items-center">
+
+				<div class="offset-sm-1 col-sm-5 col-10 offset-2"  style="padding-top: 2%;">
+					<font size="4" color="black" class="d-none d-sm-block">You are just 10 minutes away from the help you need</font>
+					<div style="padding-left: 10%;padding-top: 5%;"><p><span style="padding-top: 3.5%;"><span class="fa fa-phone fa-lg ph" ></span></span><span  style=" padding: 3% 0% 0% 1%;"><font color="black" ><strong>+91 7054-626877</strong></font></span></p>
+					<p><span style="padding-top: 3.5%;"><span class="fa fa-envelope fa-lg "></span></span><span style="padding: 3% 0% 0% 0.5%;"><font color="black" ><strong>contact@onerostech.com</strong></font></span></p></div>
+				</div>
+				<div class=" col-12 col-sm-6">
+					<div class="card">
+						<center><h4 style="padding-top: 5%;"><font color="white">Send us your query</font></h4></center>
+						<div class="card-body">
+							<div class="container">
+								<form action="" method="">
+									<div class="form-group">
+										<label for="name"><font color="white">Name</label>
+										<input type="text" id="name" name="name" class="form-control">
+									</div>
+									<div class="form-group">
+										<label for="email"><font color="white">Email</label>
+										<input type="email" id="email" name="email" class="form-control">
+									</div>
+									<div class="form-group">
+										<label for="msg"><font color="white">Email</label>
+										<textarea id="msg" name="msg" rows="5" class="form-control"></textarea>
+									</div>
+									<div class="form-group" style="padding-top: 35%;">
+										<center><button class="btn btn-lg round"><font color="white">SUBMIT</font></button></center>
+										
+									</div>
+								</form>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	{% endblock %}

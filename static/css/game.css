@@ -1,0 +1,93 @@
+body{
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+	max-width: 100%;
+}
+.navbar{
+	max-width: 100%;
+}
+.follow{
+	padding: 16px 0px 0px 0px;
+}
+.row-body{
+	min-height: 50px;
+	background-color: grey;
+
+}
+.row-body-1{
+	max-height: 50px;
+	background-color: #459bb5;
+}
+.fa-facebook {
+	color: #06394E;
+}
+.fa-youtube-play{
+	color: #06394E;
+}
+.fa-instagram{
+	color: #06394E;
+}
+.fa-snapchat{
+	color: #06394E;
+}
+.fa-twitter{
+	color: #06394E;
+}
+.fa-linkedin{
+	color: #06394E;
+}
+.fa-phone{
+	color: white;
+}
+.fa-envelope{
+	color: #34ebe1;
+}
+.fa{
+	background: white;
+    padding:8px;
+    border-radius: 50%;
+}
+.tab-content{
+	min-height: 500px;
+}
+.footer{
+	min-height: 100px;
+	background-color: #06394E;
+}
+.ph{
+	background: #34ebe1;
+    padding:7px;
+    border-radius: 50%;
+}
+.card{
+	background-color: #06394E;
+	min-height: 300px;
+}
+.round{
+	border-radius: 35px;
+	width: 50%;
+	background-color: #eb9f34;
+	font-family: 'Noto Sans TC', sans-serif;	
+}
+.card-back{
+	background-color: #06394E;
+	
+}
+.card-body-back{
+	background-image: url('../static/games/word_game.png');
+	background-size: cover; 
+	height: 220px;
+}
+.pad-top{
+	padding-top: 0%;
+}
+.card-margin{
+	margin: 1% 1px 15% 1px;
+}
+.image-responsive{
+	max-width: 100%;
+	height: auto;
+}
+.active{
+	max-width: 104%;
+}

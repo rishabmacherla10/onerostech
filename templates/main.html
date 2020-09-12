@@ -1,0 +1,220 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="background-color:#06394E;">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand mr-auto" href="#"><img src="static/header_icon.png" class="img-fluid mr-3" height="60" width="60"><font color="#F79A5A" size="5%" style="font-family: 'Open Sans', sans-serif;"><strong>Oneros Tech</strong></font></a>
+
+			<div class="collapse navbar-collapse" id="content">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a class="nav-link" href="/"><font size="2%">GAMES</font></a></li>
+					<span style="position: relative;color: white;top:7px;" class="d-none d-sm-block">|</span>
+					<li class="nav-item"><a class="nav-link" href="/about"><font size="2%">ABOUT</font></a></li>
+					<span style="position: relative;color: white;top:7px;" class="d-none d-sm-block">|</span>	
+					<li class="nav-item"><a class="nav-link" href="/contact"><font size="2%">CONTACT</font></a></li>
+					<span style="position: relative;color: white;top:7px;" class="d-none d-sm-block">|</span>
+					<li class="nav-item"><a class="nav-link" href="/privacy"><font size="2%">PRIVACY POLICY</font></a></li>	
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="follow">
+		<!-- <div class="container"> -->
+			<div class="row row-body align-items-center" >
+			
+				<div class="offset-2 col-2 d-none d-sm-block">
+					<font size="4px" color="white"><center>Follow Us:</center></font>
+				</div>
+				<div class="col-2 offset-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-youtube-play fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1 d-none d-sm-block">
+					<a href="#"><i class="fa fa-snapchat fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+				</div>
+				<div class="col-2 offset-sm-0 col-sm-1">
+					<a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+				</div>
+			</div>
+			
+		<!-- </div> -->
+	</div>
+	<div style="background-image: url('../static/bg_sticker.png')">
+		<div class="container">
+			<p style="padding-top: 2%;"><center><h3><font color="black">GAMES</font></h3></center></p>
+			
+			<div class="row">
+				<div class="col-6 col-sm-3">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font size="2em" color="white">WORD CROSS GAME</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/word_search.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="word">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font color="white">CRAPS LIVE</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/craps_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+							<!-- <img class="img-fluid" src="{{url_for('static', filename='../static/w.png')}}"> -->
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round btn-align" name="game_btn" value="craps">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font size="1.5em" color="white">ROULETTE LIVE</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/roulette_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="roulette">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font color="white">SICBO LIVE</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/sicbo_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="sicbo">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3 pad-top">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font color="white">BACCARAT LIVE</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/baccarat_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="baccarat">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3 pad-top">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font size="1em" color="white">CARIBBEAN STUD POKER</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/carribean_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="stud">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3 pad-top">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font size="1.5em" color="white">CRAZY 4 POKER</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/crazy_4poker_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="crazy">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3 pad-top">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font color="white">LET IT RIDE</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/let_it_ride_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="ride">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="offset-sm-2 col-6 col-sm-3 pad-top">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font color="white">PAI GOW POKER</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/paigow_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="pai">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-6 col-sm-3 pad-top">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font size="2.5em" color="white">THREE CARD POKER</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/three_card_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="three">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="offset-3 col-6 offset-sm-0 col-sm-3 pad-top">
+					<div class="card card-margin">
+						<h6 class="card-header card-back"><center><font size="2em" color="white">MISSISSIPPI</font></center></h6>
+						<div class="card-body" style="background-image: url('../static/images/game icon (250X288)/messesippi_icon.png');border-radius: 15px;">
+							<div style="padding-top: 100%;">
+								<form action="/game_page" method="POST">
+									<center><button class="btn btn-md round" name="game_btn" value="mississippi">INFO</button></center>
+									
+								</form>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	{% endblock %}
