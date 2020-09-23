@@ -8,6 +8,7 @@ body{
 }
 .follow{
 	padding: 16px 0px 0px 0px;
+	min-width: 100%;
 }
 .row-body{
 	min-height: 50px;
@@ -53,6 +54,7 @@ body{
 .footer{
 	min-height: 100px;
 	background-color: #06394E;
+	
 }
 .ph{
 	background: #34ebe1;
@@ -90,4 +92,7 @@ body{
 }
 .active{
 	max-width: 104%;
+}
+.navbar{
+	width: 100%;
 }

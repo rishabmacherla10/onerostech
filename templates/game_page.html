@@ -23,58 +23,58 @@
 	</nav>
 
 	<div class="follow">
-		<!-- <div class="container"> -->
+		 <!-- <div class="container">  -->
 			<div class="row row-body align-items-center" >
-			
-				<div class="offset-2 col-2 d-none d-sm-block">
-					<font size="4px" color="white"><center>Follow Us:</center></font>
-				</div>
-				<div class="col-2 offset-2 offset-sm-0 col-sm-1">
-					<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-				</div>
-				<div class="col-2 offset-sm-0 col-sm-1">
-					<a href="#"><i class="fa fa-youtube-play fa-lg"></i></a>
-				</div>
-				<div class="col-2 offset-sm-0 col-sm-1">
-					<a href="#"><i class="fa fa-instagram fa-lg"></i></a>
-				</div>
-				<div class="col-2 offset-sm-0 col-sm-1 d-none d-sm-block">
-					<a href="#"><i class="fa fa-snapchat fa-lg"></i></a>
-				</div>
-				<div class="col-2 offset-sm-0 col-sm-1">
-					<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-				</div>
-				<div class="col-2 offset-sm-0 col-sm-1">
-					<a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-				</div>
+						
+					<div class="offset-2 col-2 d-none d-sm-block">
+						<font size="4px" color="white"><center>Follow Us:</center></font>
+					</div>
+					<div class="col-2 offset-1 offset-sm-0 col-sm-1">
+						<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+					</div>
+					<div class="col-2 offset-sm-0 col-sm-1">
+						<a href="#"><i class="fa fa-youtube-play fa-lg"></i></a>
+					</div>
+					<div class="col-2 offset-sm-0 col-sm-1">
+						<a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+					</div>
+					<div class="col-2 offset-sm-0 col-sm-1 d-none d-sm-block">
+						<a href="#"><i class="fa fa-snapchat fa-lg"></i></a>
+					</div>
+					<div class="col-2 offset-sm-0 col-sm-1">
+						<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+					</div>
+					<div class="col-2 offset-sm-0 col-sm-1">
+						<a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+					</div>
 			</div>
 			
 		<!-- </div> -->
 	</div>
-<div class="d-none d-sm-block">
+	<div class="d-none d-sm-block">
 		<div class="d-flex row row-body-1 " style="border-bottom: 2px solid orange;">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-4 col-sm-4">
-						<a href="#" style="text-decoration: none;"><img class="img-fluid" src="../static/images/game icon(50X50)/{{icon}}" height="50" width="40"><font size="4px" color="orange" style="padding-left: 15px;padding-top: 20px;"><strong>WORD CROSS SEARCH</strong></font></a>
+						<a href="#" style="text-decoration: none;"><img class="img-fluid image-responsive" src="../static/images/game icon(50X50)/{{icon}}" height="40" width="40"><font size="4px" color="orange" style="padding-left: 15px;padding-top: 20px;"><strong><span style="font-size: 1.5vw;">{{name}}</span></strong></font></a>
 					</div>
-					<div class="d-flex offset-2 col-2 justify-content-end" style="padding-top: 7px;">
-						<font size="3px;" color="white"><strong>DOWNLOAD ON:</strong></font>
+					<div class="d-flex offset-2 col-2 justify-content-end" style="padding-top: 4px;font-size: 1.15vw;">
+						<font color="white">DOWNLOAD ON:</font>
 					</div>
-					<div class="d-flex col-2 justify-content-start" style="padding-top: 7px;">
-						<a href="#"><img class="img-fluid" src="static/google1.png" width="200" height="0"></a>
+					<div class="d-flex col-2 justify-content-start" >
+						<a href="#"><img class="img-fluid" src="static/google1.png" width="150" height="0"></a>
 					</div>
-					<div class="d-flex col-2 justify-content-start" style="padding-top: 8px;">
-						<a href="#"><img class="img-fluid" src="static/apple.png" width="200" height="0"></a>
+					<div class="d-flex col-2 justify-content-start" >
+						<a href="#"><img class="img-fluid" src="static/apple.png" width="130" height="0"></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12">
-			<img src="../static/images/gameplay images/{{image}}" style="max-width: 104%;">
-		</div>
+		
+			<img src="../static/images/gameplay images/{{image}}" style="width: 100%;">
+		
 		
 	</div>
 	
@@ -97,9 +97,256 @@
 		<div class="tab-content ">
 			
                 		<div role="tabpanel" class="tab-pane fade show active" id="desc">
-	                			<font size="5px" >
-	                				{{desc}}
-	                			</font>
+	                			<div class="container" style="font-size: 2.8vmin">
+	                				
+	                				{% if desc=="word" %}
+	                				<h2>Cross Word</h2>
+	                					<p>
+	                						<strong>Crossword</strong> puzzle games are said to be the most popular and widespread game in the world.
+											Word cross is a super amazing online multiplayer crossword game which won't let you sit ideal when you're getting bored.<br>
+											It is an easy and unique <strong>word puzzle</strong> game. You can enjoy <strong>crosswords</strong> with friends.
+
+											<h3>How to Play?</h3>
+											<strong>Word cross</strong> search is a non-addictive crossword game that is divided into 2 modes. Let's throw the light on the different modes in the game.
+											<ul>
+												<li><strong>Challenge mode</strong><br>
+												Do you wish to play puzzles with the real world competitors? If yes, then this Is the best online game that you should try. It allows you to play with competitors from the real world or with artificial intelligence.<br>
+												You need to search various words in the grid according to the clues provided to you.<br>
+												If you find more <strong>words with</strong> your competitors,heya! You won!<br><br>
+
+												The game doesn't end here. There Is a twist in between called the Pot. To enjoy this, you need to bet the coin to enter the word room play. Once we bet the coin, we will start finding a match for word room for you.<br>
+												After which the winner wins the pot and the loser has to return his bet coins to the winner.</li><br>
+												<li><strong>Campaign Mode</strong><br>
+												In this mode, there are different chapters in multiple <strong>words app</strong> rooms. Each chapter is given a different grid size containing hidden <strong>words</strong> to be found according to the clues. You can also enter bet coins to play this mode. Play this <strong>classic words with friends.</strong><br>
+												If you find all the words in a given time, then you win the pot and enter into a new chapter.</li>
+											</ul>
+											
+
+											<h3>Features -</h3>
+											<ul>
+												<li>Word Search Grid sizes from 6 x 6 to 11 x 11.</li>
+												<li>Multiplayer Word Search game to play against real-world opponents or compete with artificial intelligence.</li>
+												<li>Multiple Crossword Rooms to Unlock as you proceed and play word games with friends.</li>
+												<li>Unlimited Online Word Search puzzles - Play with coins.</li>
+												<li>Start the Word Search game with free Coins.</li>
+												<li>Boosters to help you solve the crossword and find words faster than your opponent.</li>
+												<li>Re-match with your friends to keep the Game spirit high.</li>
+												<li>Record your performance in your Game Profile.</li>
+												<li>Bonus coins in every 2 hours.</li>
+												<li>Forward, reverse, diagonal word swiping to make the Word Search more fun.</li>
+											</ul>
+											
+
+	                					</p>
+										
+									{% elif desc=="craps" %}
+										<h2>Craps Live Casino:</h2>
+										<p>Experience the best Multiplayer Live <strong>Craps game</strong> app for your android mobile and tablet.<br>
+										Enjoy the best <strong>craps at the casino</strong> online with full flexibility like a real game.
+										<strong>Come bet craps</strong> with your friends and enjoy online craps.
+										Find how to<strong> win at craps</strong> to enjoy various benefits.
+										Form <strong>betting crap strategy</strong> and challenge your friends to play.
+										Be the shooter and roll the dice on the modern craps table and have fun!
+										Play the <strong>best bet in casino</strong>  like on a real Casino table.<br><br>
+
+										Lots of Casino Rooms to choose from and join any of the 12 Live Tables with different betting limits.<br>
+										More than 100 levels to be crossed and join bigger tables like a Pro!!<br><br>
+
+										Play with your friends and other players from all over the world to learn the <strong>best strategies for craps.</strong>
+										Or <strong>play craps</strong> in any of the 12 tables in offline mode
+										Also, learn <strong>craps betting</strong> in practice mode.
+
+
+										<h3>Game Features</h3>
+										<ul>
+											<li>1,00,000 Bonus chips in <strong>craps.</strong></li>
+											<li>Hourly Bonus in an <strong>online craps game.</strong></li>
+											<li>HD Graphics and user-friendly interface.</li>
+											<li>12 Online Live and 12 Offline tables in <strong>a craps game.</strong></li>
+											<li>Random dice rolls like real <strong>craps at the casino.</strong></li>
+											<li>Real-time Stick-man Calls.</li>
+											<li>Attractive Sound and Music to learn the <strong>best strategy for craps.</strong></li>
+											<li>Betting and Winning-Losing animation.</li>
+											<li>Share your score on the global Leader Board.</li>
+											<li>Invite friends to join tables and win the <strong>best bet in the casino.</strong></li>
+											<li>Send - Receive gifts to your friends.</li>
+											<li>In-App chip purchases.</li>
+										</ul>
+										
+
+
+										<h3>How to play</h3>
+										<ul>
+											<li>Start with <strong>craps betting</strong> minimum on either the Pass Line or the Don't Pass Line.</li>
+											<li>Every  <strong>free craps online</strong>  round has two phases:<br>
+											<li>Come Out and Point.</li>
+											<li>To start a round, the shooter makes one or more Come Out rolls in <strong>craps.</strong></li>
+											<li>A Come Out roll of 2, 3 or 12 ends the round with players losing their Pass Line bets.</li>
+											<li>A Come Out roll of 7 or 11 (a Natural) results in a win for Pass Line bets known to be <strong>the best bet in casino.</strong></li>
+											<li>The shooter continues to make Come Out rolls until he rolls 4, 5, 6, 8, 9, or 10, which number becomes the Point.</li>
+											<li>The dealer then moves an On button to the point number signifying the second phase of the round.</li>
+											<li>If the shooter in the <strong>craps game</strong> rolls the point number, the result is a win for bets on the Pass Line.</li>
+											<li>If the shooter rolls a seven (a Seven-out), the pass line loses and the round ends.</li>
+											<li>The first roll of the dice in a betting round is the Come Out roll - a new game in Craps begins with the Come Out roll.</li>
+											<li>A Come Out roll can be made only with new <strong>craps strategy</strong> when the previous shooter fails to make a winning roll, that is, fails to make the Point or makes a Seven (rolls a seven).</li>
+										</ul></p>
+
+									{% elif desc=="roulette" %}
+
+											<p>Live <strong>Casino Roulette</strong> is an amazing casino game that gives you real roulette experience. You can easily play <strong>Roulette Online</strong> with your friends and family. There are various levels to be crossed as you go on winning in a <strong>Casino Roulette Game</strong>.
+										Gear up your excitement to play live roulette for free online with players around the world, just like a real casino game.<br><br>
+
+										-Once you login into the game,50,000 bonus chips to thrill your <strong>casino roulette game</strong> experience.<br>
+										-There are interesting multiplayer American and European style user- friendly   <strong>roulette tables</strong> to play with your friends.<br>
+										-You can invite your social media friends and share your experience with them.
+										 <strong>Roulette board</strong> is thrilling and interesting to play with different multi-levels after every win.<br>
+										- You can unlock higher tables and spin the <strong>roulette wheel</strong> to collect your bonus chips.<br>
+										- You can master the game by playing offline and in practice mode.<br>
+
+										<h3>Game Features</h3>
+										<ul>
+											<li>Choose a variety of <strong>Roulette table</strong> after spinning every <strong>Roulette wheel</strong></li>
+											<li>Connect with your friends and join them to play the real live <strong>Casino Roulette Game Online.</strong></li>
+											<li>HD graphics and user- friendly interface</li>
+											<li>Send and receive gifts from your friends.</li>
+											<li>Make new friends all over the world by playing with them.</li>
+											<li>Download <strong>Roulette App</strong> to receive hourly and first-time login bonus chips.</li>
+											<li>3D music with high sensors to give you a real feel of a casino.</li>
+											<li>Last 6 winning numbers displayed in the table.</li>
+										</ul>
+										
+
+										<h3>How to Play</h3> 
+										There are certain roulette rules to follow before playing the roulette game online.
+										<ul>
+											
+											<li>Login into the game to receive free bonus chips.</li>
+											<li>Select your roulette chips and then click on the area outside or inside the roulette table where you want to bet.</li>
+											<li>You can place several chips on a single number on various other betting areas on the roulette table.</li>
+											<li>After times out, the roulette wheel and ball starts spinning and the ball will come to rest on any one number when the wheel stops to spin.</li>
+											<li>If you have bet on this number then you win.</li>
+											<li>The winning amount is given according to roulette payout, which is different for every betting position on the table.</li>
+											<li>Share the game with your friends and family to get out of the boring Sunday morning.</li>
+										</ul></p>
+
+										{% elif desc=="sicbo" %}
+
+											<h2>Sic Bo (Tai-Xiu):</h2>
+											<p>Sic-Bo is a popular Dice game in Macau and Las-Vegas casinos.<br><br>
+											Play with your social friends on our modern multiplayer tables. There are various tables to choose from as you cross Levels and unlock bigger Casino rooms.<br><br>
+
+											<h3>How to Play:</h3><br>
+											The betting options available at Sic Bo are formed by the various combinations obtained with three dices. These wagers and their payouts are reproduced on the gaming table. Players may wager on as many combinations as desired per game. The dice are shaken by the dealer, using a vibrating platform under a round shape glass cover. After all, bets have been made, the dealer activates the dice shaker. The outcome of each of the three dice appears on the display.<br>
+
+											The payout is given based on rules and the outcome of dice.<br><br>
+
+											There are <strong>8 different ways</strong> you can bet.<br>
+											<ol>
+												<li>You can bet on one number, which must appear on all three dice. This is called a Three of a Kind. You have the least chances of hitting a winning bet, as there are 216 (6 X 6 X 6) dice combinations and only one of them can give you a 1,1,1 or 2,2,2 or 3,3,3 or 4,4,4 or 5,5,5 or 6,6,6.</li>
+
+												<li>You can bet on one number, which must appear on two of the three dice. This is called a Two of a Kind, such as a 1,1 or 2,2 or 3,3 or 4,4 or 5,5, or 6,6.</li>
+
+												<li>You can bet that the same number from 1 to 6 will appear on all three dice, such as either a 1,1,1 or 2,2,2 or 3,3,3 or 4,4,4 or 5,5,5 or 6,6,6. This is called Any Three of a Kind and it pays 24 to 1.</li>
+
+												<li>There is an area called Small that pays even money, where you bet that the sum of the three dice will be equal to 4, 5, 6, 7, 8, 9, or 10 excluding a Three of a Kind.</li>
+
+												<li>Similarly, there is an area called Big, that also pays even money, where you bet that the sum of the three dice will be equal to 11, 12, 13, 14, 15, 16, or 17 excluding a Three of a Kind.</li>
+
+												<li>On the Sic Bo layout, there is a wide area with the numbers 4 to 17 written on them.</li>
+
+												<li>You can bet on two different numbers, which must appear on at least two of the three dice. This bet is called Duo, and it pays 5 to 1. The dice combinations you can bet on are: 1,2 or 1,3 or 1,4 or 1,5 or 1,6 or 2,3 or 2,4 or 2,5 or 2,6 or 3,4 or 3,5 or 3,6 or 4,5 or 4,6 or 5,6, as long as the two numbers are not the same.</li>
+
+												<li>And the last type of bet is called a simple One of a Kind, where you bet on a single number that must appear on one, two or all three dice. This is shown in the layout as the dice face 1, or 2, or 3, or 4, or 5, or 6.</li>
+											</ol>
+											
+
+											<h3>Features:</h3>
+											<ul>
+												<li>Multiple rooms for online.</li>
+												<li>Multiple Tables for single-player mode.</li>
+												<li>4 players on single Tables in multiplayer mode.</li>
+												<li>Timer Based bets in multiplayer mode.</li>
+												<li>Send/ Receive Gift to/from Friends.</li>
+												<li>Bet from $1 to $100 Billion on various tables.</li>
+												<li>Rank based on your level.</li>
+												<li>Invite Friends to play with you.</li>
+												<li>Multiple Levels.</li>
+												<li>Low and High stakes Table.</li>
+												<li>Leader-board to compete for your score with other players.</li>
+												<li>Two Hourly bonus.</li>
+												<li>Sounds, Notifications.</li>
+												<li>Offline mode if you don't want to play with others.</li>
+												<li>Guest mode to hide your identity.</li>
+												<li>Login Bonus.</li>
+												<li>Play in a virtual casino environment.</li>
+												<li>In-Game Chatting feature.</li>
+												<li>Daily Rewards and tasks to complete.</li>
+											</ul>
+												
+											<h5>More Tables coming soon......</h5>
+											<br>
+											<center><h3><em>*We don't save any details with us.*</em></h3></center></p>
+
+										{% elif desc=="baccarat" %}
+
+											<h2>Baccarat Live:</h2><br>
+											<strong>Baccarat card game</strong> is played at casinos, especially in Asia, Macau. It is also known as punto banco.<br>
+											Now you can play <strong>baccarat games</strong> online.<br>
+											<strong>Online baccarat</strong> is popular nowadays amongst everyone.<br><br>
+
+											Play <strong>baccarat card games</strong> with your social friends on our modern multiplayer Live Baccarat tables. In free online baccarat, there are various tables to choose from as you cross Levels and unlock bigger Casino baccarat online rooms.<br><br>
+
+											A game of baccarat has three possible outcomes: Player win, Banker win, and tie. Participants in the game have the option to bet on either the player or banker's hand.<br><br>
+
+											<h3>Game Features:</h3>
+											<ol>
+												<li>Live Casino rooms with multiplayer Baccarat tables.</li>
+												<li>Win baccarat jackpot with Timer Based bets in multiplayer mode.</li>
+												<li>Bet from $10 to $00 Trillion on various tables.</li>
+												<li>Global Ranking on Game Leaderboard.</li>
+												<li>Invite Friends to play baccarat casino game with you.</li>
+												<li>Play baccarat online free in  Multiple Levels.</li>
+												<li>Low and High stake Baccarat casino Tables.</li>
+												<li>Single-player mode to practice.</li>
+												<li>50K Bonus chips with Facebook Login.</li>
+											</ol>
+											
+
+
+											<h3>How to Play:</h3>
+											<ul>
+												<li>Usually, in the baccarat card game, six decks of cards are used.</li>
+												<li>Cards are given point values as follows: Ace = 1, 2-9 = pip value, 10 and face cards = 0.</li>
+												<li>Play begins by all players betting either on the Player or Banker. There is also a side bet on a Tie. At some tables, there are also side bets on a Player Pair and/or Banker Pair.</li>
+												<li>After all, bets are down, the dealer gives two cards each to the Player and Banker’s hands.</li>
+												<li>The maximum number of points in both the Player and Banker’s hands is 9.The way to arrive at the points per hand is to take the total points of each card in the hand. If the sum is more than 9, then drop the first digit. For example, if either hand had a 9 and 7, then you would drop the 1 from a total of 16, for a 6-point hand.</li>
+												<li>A third card may or may not be dealt with either the baccarat Player or Banker’s hands, depending on the following rules -<br>
+												<strong>--</strong> If either the Player or Banker has 8 or 9 points, it is referred to as a "natural." If there is at least one natural, then both hands will stand.<br>
+												<strong>--</strong> Otherwise, if the Player's total is 5 or less, then the Player hand will draw one more baccarat card, otherwise, with 6 or 7 points, the Player handstands.<br>
+												<strong>--</strong> If the Player handstands with 6 or 7 points, then the Banker hand will draw a third card on a total of 5 or less. Otherwise, with 6 or 7 points, the Banker will stand.<br>
+												<strong>--</strong> If the Player does draw a third card, then use the Banker will use his positional advantage to decide whether to take a third card according to his total and the third card drawn to the Player, according to the certain scores.</li>
+												<li>The score of the Player and Banker’s hands are compared; the winner is the greater one. In an event of a tie, the Player and Banker bets push.</li>
+												<li>The Tie bet wins if the Player and Banker hands tie. All other outcomes lose.</li>
+												<li>The Player Pair bet wins if the first two cards in the Player hand are of the same rank. All other outcomes lose.</li>
+												<li>The Banker Pair bet wins if the first two cards in the Banker hand are of the same rank. All other outcomes lose.</li>
+												<li>Following is how to pay each bet:<br>
+
+												<strong>Player</strong>: <em>Wins pay even money</em>.<br>
+												<strong>Banker</strong>: <em>Wins pay 19 to 20</em>.<br>
+												<strong>Tie</strong>: <em>Wins pay 8 to 1 on a tie</em>.<br>
+												<strong>Player Pair and Banker pairs</strong>: <em>Wins pay 11 to 1</em>.</li>
+											</ul>
+											<br>
+
+											<h4><em>Play Baccarat Live in a virtual baccarat Casino online environment with global players!!</em></h4>
+
+										{% else %}
+
+										<p>hello</p>
+	                				{% endif %}
+
+
+	                			</div>
                 		</div>
                 		<div role="tabpanel" class="tab-pane fade" id="video">
                 			<div>
